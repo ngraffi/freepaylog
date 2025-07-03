@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.subheader("FREEPAY 로그")
+st.subheader("FREEPAY 로그!")
 
 catID = st.text_input("단말기번호", max_chars=10, icon="💳")
     
