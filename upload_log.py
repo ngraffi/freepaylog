@@ -3,7 +3,7 @@ import streamlit as st
 # from plyer.facades import Intent
 # from plyer import notification
 
-st.markdown("# FREEPAY 로그 전송")
+st.title("FREEPAY 로그 전송")
 
 # if st.button("로그 전송") :
     # my_intent = Intent(
