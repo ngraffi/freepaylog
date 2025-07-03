@@ -15,6 +15,6 @@ st.markdown("# FREEPAY LOG UPLOAD")
     # notification.notify(title = "Greeting!", messgae = "message~~", app_icon = None, timeout = 10, toast = False)
     
 
-st.page_link("smartroapp://freepaylink?trantype=upload_log&catid=111111111", label="로그 전송", icon='🐶')
+st.link_button(url="smartroapp://freepaylink?trantype=upload_log&catid=111111111", label="실행하기", icon='🐶')
 
 
