@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title = "Smartro",
+    page_icon = "🚧"
+)
+
 st.subheader("FREEPAY 로그!")
 
 catID = st.text_input("단말기번호", max_chars=10, icon="💳")
